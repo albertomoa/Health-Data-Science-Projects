@@ -9,7 +9,7 @@ Using molecular descriptors calculated from chemical compounds, various regressi
 ## Key Steps:
 
 * Part 1: Data Collection and Preprocessing
-** Gathered biological activity data from the ChEMBL database. The dataset contains compounds tested for activity against Acetylcholinesterase.
+**Gathered biological activity data from the ChEMBL database. The dataset contains compounds tested for activity against Acetylcholinesterase.
 **Cleaned and preprocessed the dataset to prepare it for further analysis.
 * Part 2: Lipinski Descriptors and Exploratory Data Analysis
 **Calculated Lipinski descriptors to predict the drug-likeness of compounds based on properties such as molecular weight and lipophilicity.
