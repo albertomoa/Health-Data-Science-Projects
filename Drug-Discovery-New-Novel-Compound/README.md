@@ -9,17 +9,17 @@ Using molecular descriptors calculated from chemical compounds, various regressi
 ## Key Steps:
 
 * Part 1: Data Collection and Preprocessing
-**Gathered biological activity data from the ChEMBL database. The dataset contains compounds tested for activity against Acetylcholinesterase.
-**Cleaned and preprocessed the dataset to prepare it for further analysis.
+  - Gathered biological activity data from the ChEMBL database. The dataset contains compounds tested for activity against Acetylcholinesterase.
+  - Cleaned and preprocessed the dataset to prepare it for further analysis.
 * Part 2: Lipinski Descriptors and Exploratory Data Analysis
-**Calculated Lipinski descriptors to predict the drug-likeness of compounds based on properties such as molecular weight and lipophilicity.
-**Performed exploratory data analysis (EDA) using box plots and scatter plots to highlight differences between active and inactive compounds.
+  - Calculated Lipinski descriptors to predict the drug-likeness of compounds based on properties such as molecular weight and lipophilicity.
+  - Performed exploratory data analysis (EDA) using box plots and scatter plots to highlight differences between active and inactive compounds.
 * Part 3: Dataset Preparation and Molecular Descriptor Calculation
-**Computed molecular descriptors using PADEL-Descriptor software.
-**Prepared the dataset for model training, with the molecular descriptors as the input variables (X) and the pIC50 values as the target variable (Y).
+  - Computed molecular descriptors using PADEL-Descriptor software.
+  - Prepared the dataset for model training, with the molecular descriptors as the input variables (X) and the pIC50 values as the target variable (Y).
 * Part 4: Model Building and Evaluation
-**Built and evaluated several regression models, including Linear Regression, Random Forest, AdaBoost, and others, to predict pIC50 values.
-**The Random Forest Regressor showed the best performance on the validation set compared to other models.
+  - Built and evaluated several regression models, including Linear Regression, Random Forest, AdaBoost, and others, to predict pIC50 values.
+  - The Random Forest Regressor showed the best performance on the validation set compared to other models.
 
 **Model Performance:**
 
