@@ -1,6 +1,6 @@
 # Cheminformatics Project: Predicting Biological Activity of Compounds using Machine Learning
 
-## Project Overview & Focus:
+## Project Overview:
 
 This project aims to develop a machine learning pipeline for predicting the biological activity (pIC50 values) of chemical compounds. The project is rooted in drug discovery, leveraging bioinformatics tools to evaluate compounds for their potential as drug candidates by targeting Acetylcholinesterase, an enzyme relevant in neurological functions.
 
