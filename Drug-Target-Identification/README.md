@@ -5,8 +5,6 @@ This project aims to develop a machine learning pipeline for predicting the biol
 
 Using molecular descriptors calculated from chemical compounds, various regression models were built and tested to predict pIC50 values. The project emphasizes understanding the key molecular features influencing bioactivity and identifying limitations in current predictive models for future improvement.
 
----
-
 ## Key Steps:
 * Part 1: Data Collection and Preparation
   - Collected biological activity data from the ChEMBL database, focusing on compounds targeting Tyrosine Kinase.
@@ -26,22 +24,16 @@ Conducted a detailed EDA to understand the dataset and identify patterns:
   - Built and tested several regression models, including Linear Regression, Decision Tree, Random Forest, and AdaBoost Regressor.
   - Conduct model analysis using feature importance plot and residual plot.
 
----
-
 **Model Performance:** 
 The AdaBoost Regressor was the best-performing model on the training and validation sets, with an R² score of 0.8049 and an RMSE of 1.0175.
 However, on the unseen test set, the model’s accuracy was moderate, with an R² of 0.73 and an RMSE of 1.60.
 These results suggest that while the model captures the general trends, its ability to generalize could be improved by addressing data limitations and exploring more complex algorithms.
-
----
 
 ## Tools & Technologies:
 **Python**: For data preprocessing, feature engineering, and model building.
 **Scikit-learn**: To implement machine learning algorithms and conduct hyperparameter tuning.
 **Matplotlib & Seaborn**: For data visualization during EDA and residual analysis.
 **PADEL-Descriptor**: To calculate molecular descriptors from chemical structures.
-
----
 
 ## Conclusion:
 This project successfully demonstrated the potential of machine learning to predict the biological activity of chemical compounds targeting Tyrosine Kinase. While the AdaBoost Regressor provided promising results, limitations such as the small dataset size and challenges in handling outliers need to be addressed.
