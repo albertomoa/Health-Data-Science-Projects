@@ -1,7 +1,5 @@
 # Cheminformatics Project: Identification for Potensial Inhibitors for Tyrosine Kinase Enzym using Machine Learning
 
----
-
 ## Project Overview:
 This project aims to develop a machine learning pipeline for predicting the biological activity (pIC50 values) of chemical compounds. The focus lies in drug discovery, leveraging cheminformatics and bioinformatics techniques to evaluate compounds for their potential as inhibitors of Tyrosine Kinase, an enzyme critical in cancer cell signaling and progression. The goal is to explore the relationship between molecular descriptors and biological activity to identify promising drug candidates.
 
